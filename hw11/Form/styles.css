@@ -1,0 +1,10 @@
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.thin {
+    width: 500px;
+    height: 50px;
+}

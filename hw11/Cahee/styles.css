@@ -1,0 +1,112 @@
+
+.box1 {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.navitem {
+    margin-right: 38px;
+    text-transform: uppercase; 
+    font-family: 'Raleway - bold', sans-serif;
+    font-size: 16px;   
+    text-decoration: none;
+    color: black;
+}
+
+.navitem:hover {
+    border-top: 2px solid #ff6033;
+}
+
+
+
+.section-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.nav {
+     
+    display: flex; 
+}
+
+.half1 {
+    background-image: url('section1.png');
+    object-fit: contain;
+}
+
+.section1-title {
+
+    text-transform: uppercase; 
+    font-family: 'Raleway - heavy', sans-serif;
+    font-size: 60px;
+    padding-bottom: 40px;
+}
+
+.section1-text {
+    font-family: 'Raleway - light', sans-serif;
+    font-size: 17px;
+}
+
+.footer {
+    margin-top: 30px;
+}
+
+.button {
+    display: inline-block;
+    font-family: "Raleway" , sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #ff6033;
+     padding-top: 10px;
+    /* padding-bottom: 15px;  */
+    text-decoration: none;
+    /* padding-left: 27px;
+    padding-right: 47px; */
+    min-height: 45px;
+    min-width: 190px;
+    text-align: center;
+    font-weight: 300;
+    }
+
+    .grid-item {
+        width: 33.33%;
+        padding-top: 260px;
+        padding-bottom: 400px;
+    }
+    .scroll {
+        text-align: center;
+        margin-top: -100px;
+    }
+
+    .box2 {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    
+    .section2 {
+        background-color: #00b2b2;
+    }
+.grid2 {
+    display: flex;
+}
+    .grid2-item {
+        width: 50%;
+        padding-top: 175px ;
+    }
+
+    .section2-title {
+        font-family: "Raleway - bold" , sans-serif;
+        font-size: 90px;
+        color: #fff;
+        padding-bottom: 35px ;
+    }
+
+    .section2-text {
+        
+        font-family: "Raleway - light" , sans-serif;
+        color: #ffffff;
+        font-size: 17px;
+    }

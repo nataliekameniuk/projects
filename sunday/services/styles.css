@@ -1,0 +1,107 @@
+.service-title
+{
+    color: #000000;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.35px;
+    line-height: 58px;
+    font-weight: 400;
+    
+}
+.service-description
+{
+    color: #9d9d9d;
+    line-height: 20px;
+    letter-spacing: 0.35px;
+}
+/*
+.service-icon
+{
+    background-color: #1275b9;
+    width: 65px;
+    height: 65px;  
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+
+} */
+
+.list li
+{width: 220px;
+    display: inline-block;}
+
+.service
+
+{
+    text-align: center;
+}
+
+.service-icon:hover 
+{
+    
+    width: 65px;
+height: 65px;
+border: 1px solid #1275b9;
+
+
+
+}
+
+.icon1:hover {
+    background: url("tablet_blue.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+    
+}
+
+.icon2:hover {
+    background: url("settings_blue.png") no-repeat;  
+    background-position: center;
+}
+
+.icon3:hover {
+    background: url("dashboard_blue2.png") no-repeat;  
+    background-position: center;
+}
+
+.icon1 
+{
+    background: url("tablet_white.png") no-repeat;  
+    background-position: center;
+    background-color: #1275b9;
+    width: 65px;
+    height: 65px;  
+    border-radius: 50%;
+    text-align: center;
+    display: table-cell;
+
+}
+
+.icon2 
+{
+    background: url("settings_white.png") no-repeat;  
+    background-position: center;
+    background-color: #1275b9;
+    width: 65px;
+    height: 65px;  
+    border-radius: 50%;
+    text-align: center;
+    display: table-cell;
+
+}
+
+.icon3 
+{
+    background: url("dashboard_white.png") no-repeat;  
+    background-position: center;
+    background-color: #1275b9;
+    width: 65px;
+    height: 65px;  
+    border-radius: 50%;
+    text-align: center;
+    display: table-cell;
+
+}

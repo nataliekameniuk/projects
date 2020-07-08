@@ -1,0 +1,131 @@
+body {
+    background-color: #b07cf7;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  .container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #ffffff;}
+
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+    
+  }
+
+  .intro {
+    
+    font-family: "Raleway", sans-serif ;
+    line-height: 25px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+margin-bottom: 50px;
+  }
+
+  .intro-title {
+ 
+    font-size: 90px;
+    font-weight: 700;
+  }
+
+  .intro-description {
+
+    font-size: 17px;
+    font-weight: 300;  
+  }
+
+  .grid-item {
+    padding: 15px;
+    width: 33.33%
+  }
+  .card {
+    display: flex;
+    min-height: 310px;
+     flex-direction: column; 
+     box-shadow: 0px 3px 4px 3px rgba(0, 0, 0, 0.2);
+     justify-content: space-between;
+    padding: 10px;
+  }  
+
+  .card1 {
+    background-image: url(img1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+
+  .card2 {
+    background-image: url(img2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+  }
+
+  .card3 {
+    background-image: url(img3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .card-date {
+      width: 60px;
+      height: 60px;
+      border-radius: 5px;
+background-color: rgba(38, 38, 38, 0.5);
+font-family: "Raleway - Heavy" , sans-serif;
+font-size: 26px;
+font-weight: 700;
+line-height: 25px;
+text-transform: uppercase;
+text-align: center;
+padding-top: 3px ;
+margin-left: 15px;
+
+  }
+
+  .card-title {
+    font-family: "Raleway" , sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+  }
+.card-author {
+    font-family: "Raleway - Light" ;
+font-size: 13px;
+font-weight: 300;
+margin-bottom: 15px;
+margin-left: 10px;
+}
+
+.footer {
+    margin: 60px;
+text-align: center;
+}
+.button {
+font-family: "Raleway" , sans-serif;
+color: #ffffff;
+font-size: 20px;
+font-weight: 300;
+line-height: 25px;
+text-transform: uppercase;
+text-align: center;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+background-color: #f72b3b;
+padding: 15px 60px;
+text-decoration: none;
+}
+
+
